@@ -11,20 +11,27 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-a{
+a
+{
   text-decoration: none;
+}
+#buttons a{
+  font-size: 25px;
+
   color: white;
   display: inline-block;
   padding: 8px;
 
+
 }
-a:hover
+#buttons a:hover
 {
   border-bottom: solid 2px;
 }
 .header
 {
   text-align: center;
+  display: flex;
   background-color: #58a4e2;
   color: white;
   height: 240px;
@@ -32,23 +39,21 @@ a:hover
 }
 #title
 {
-  margin: 2%;
-  float: left;
-  display: inline-block;
+  padding: 20px;
+  width: 21%;
 }
 #buttons
 {
-  margin: 2%;
-  float: right;
-  display: inline-block;
+  padding: 20px;
+  width: 21%;
 }
 .portGIT
 {
-  padding-top: 80px;
-
+  padding-top: 140px;
+  display: inline-block;
   font-weight: bolder;
-  font-size: 50px;
-  margin: 0 auto;
+  font-size: 60px;
+  margin: auto;
 }
 
 .center
@@ -86,15 +91,43 @@ a:hover
   width: 400px;
   height: 400px;
 
-  padding: 20px;
+
   margin: 20px;
 
-  border-top: solid 2px;
+  border-top: solid 10px;
   border-color: #58a4e2;
-
+  background-position:  center;
+  background-size: auto 420px;
   display: inline-block;
 }
-
+#projectContener:hover
+{
+  background-size: auto 500px;
+  transition: 0.3s;
+}
+#projectContener:hover #projectContent
+{
+  opacity: 0.8;
+  transition: 0.6s;
+}
+#projectTitle
+{
+  color: white;
+  padding: 10px;
+  background-color: #58a4e2D9;
+}
+#projectContent
+{
+  text-align: justify;
+  width: 340px;
+  height: 267px;
+  padding: 30px;
+  font-size: 16px;
+  background-color: white;
+  margin: auto;
+  overflow:hidden;
+  opacity: 0;
+}
 
 #big_font
 {
