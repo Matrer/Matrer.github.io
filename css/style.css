@@ -63,12 +63,6 @@ a
   text-align: center;
   background-color: white;
 }
-#contenerCenter
-{
-  margin: auto;
-  padding: 80px 0;
-  width: 60%;
-}
 
 .foot
 {
@@ -84,8 +78,20 @@ a
   width: 100%;
   background-color: black;
 }
-
-
+#contenerCenter
+{
+  margin: auto;
+  padding: 80px 0;
+  width: 60%;
+}
+@media only screen and (max-device-width: 768px) {
+  #contenerCenter
+  {
+    margin: auto;
+    padding: 80px 0;
+    width: 100%;
+  }
+}
 #projectContener
 {
   width: 400px;
