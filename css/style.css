@@ -116,21 +116,26 @@ a
 }
 
 @media only screen and (max-device-width: 768px) {
-  #contenerCenter
-  {
-    margin: auto;
-    width: 80%;
-  }
+
+    #projectContener
+    {
+      width: 90%;
+      height: 90%;
+
+      margin: 80px;
+
+      background-position:  center;
+      background-size: auto 420px;
+      display: inline-block;
+    }
+
 }
 #projectContener
 {
   width: 400px;
   height: 400px;
 
-
   margin: 80px;
-
-
 
   background-position:  center;
   background-size: auto 420px;
