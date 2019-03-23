@@ -115,6 +115,18 @@ a
   box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
 }
 
+
+#projectContener
+{
+  width: 400px;
+  height: 400px;
+
+  margin: 80px;
+
+  background-position:  center;
+  background-size: auto 420px;
+  display: inline-block;
+}
 @media only screen and (max-device-width: 768px) {
 
   #contenerCenter
@@ -132,17 +144,6 @@ a
       margin: 20px;
     }
 
-}
-#projectContener
-{
-  width: 400px;
-  height: 400px;
-
-  margin: 80px;
-
-  background-position:  center;
-  background-size: auto 420px;
-  display: inline-block;
 }
 #projectContener:hover
 {
