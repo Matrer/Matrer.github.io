@@ -117,10 +117,21 @@ a
 
 @media only screen and (max-device-width: 768px) {
 
+  #contenerCenter
+  {
+
+    width: 90%;
+
+
+
+    background-color: rgba(255,255,255,1);
+
+  }
+
     #projectContener
     {
-      width: 90%;
-      height: 90%;
+      width: 80%;
+      height: 80%;
 
       margin: 80px;
 
