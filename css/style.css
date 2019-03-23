@@ -26,8 +26,7 @@ a
 }
 #buttons a:hover
 {
-  margin-bottom: -2px;
-  border-bottom: solid 2px;
+  opacity: 0.8;
 }
 .header
 {
