@@ -1,7 +1,6 @@
 body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  background-color: white;
   margin: 0;
 
   background-image: url(../image/code_background_1.jpg);
@@ -10,6 +9,7 @@ body{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 a
 {
@@ -18,7 +18,7 @@ a
 #buttons a{
   font-size: 25px;
 
-  color: white;
+  color: black;
   display: inline-block;
   padding: 8px;
 
@@ -26,43 +26,45 @@ a
 }
 #buttons a:hover
 {
+  margin-bottom: -2px;
   border-bottom: solid 2px;
 }
 .header
 {
+
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
   text-align: center;
   display: flex;
-  background-color: #58a4e2;
-  color: white;
-  height: 240px;
-  padding-bottom: 40px;
+  background-color: white;
+  color: black;
+
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
 }
 #title
 {
-  padding: 20px;
+  margin: auto;
   width: 21%;
 }
 #buttons
 {
-  padding: 20px;
+  margin: auto;
   width: 21%;
 }
 .portGIT
 {
-  padding-top: 140px;
   display: inline-block;
-  font-weight: bolder;
-  font-size: 60px;
   margin: auto;
+  margin: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 60px;
 }
 
-.center
-{
-  margin-top: 400px;
-  margin-bottom: 200px;
-  text-align: center;
-  background-color: white;
-}
 
 .foot
 {
@@ -80,10 +82,39 @@ a
 }
 #contenerCenter
 {
+  border-top: solid 4px;
   margin: auto;
-  padding: 80px 0;
-  width: 60%;
+  margin-top: 200px;
+  width: 70%;
+  margin-bottom: 200px;
+  text-align: center;
+
+
+  background-color: rgba(255,255,255,1);
+
 }
+#centerHeder
+{
+  border-radius: 18px;
+  background-color: white;
+  color: black;
+  position: relative;
+  top: -40px;
+  width: 300px;
+  height: 80px;
+  margin:  auto;
+
+
+  font-size: 32px;
+  line-height: 80px;
+  vertical-align: middle;
+
+
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
 @media only screen and (max-device-width: 768px) {
   #contenerCenter
   {
@@ -98,10 +129,10 @@ a
   height: 400px;
 
 
-  margin: 20px;
+  margin: 80px;
 
-  border-top: solid 10px;
-  border-color: #58a4e2;
+
+
   background-position:  center;
   background-size: auto 420px;
   display: inline-block;
@@ -118,9 +149,10 @@ a
 }
 #projectTitle
 {
-  color: white;
+  border-bottom: solid 2px;
+  color: black;
   padding: 10px;
-  background-color: #58a4e2D9;
+  background-color: white;
 }
 #projectContent
 {
