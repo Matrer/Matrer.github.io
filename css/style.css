@@ -114,7 +114,7 @@ a
 
 #contenerCenter
 {
-  border-top: solid 4px;
+  border-top: solid 12px;
   margin: auto;
   margin-top: 200px;
   width: 70%;
@@ -132,7 +132,7 @@ a
 
   color: white;
   position: relative;
-  top: -80px;
+  top: -120px;
   width: 160px;
   height: 160px;
   margin:  auto;
