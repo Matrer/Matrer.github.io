@@ -111,6 +111,7 @@ a
   width: 100%;
   background-color: black;
 }
+
 #contenerCenter
 {
   border-top: solid 4px;
@@ -119,7 +120,7 @@ a
   width: 70%;
   margin-bottom: 200px;
   text-align: center;
-
+  padding: 40px;
 
   background-color: rgba(255,255,255,1);
 
@@ -162,27 +163,30 @@ a
 #project
 {
   display:inline-block ;
-  padding: 10px;
+  margin: 20px;
   font-size: 18px;
+  border-radius: 20px;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
 
+  border: 3px solid #9876AA;
 }
 #projectTitle
 {
   font-size: 20px;
-  border-left: solid 2px;
-  border-right: solid 2px;
+
+
 
   line-height:  40px;
   color: black;
-  margin: 0;
-
+  margin: 4px;
 
 
 }
 
 #projectInfo
 {
-  background: white;
 
   color: black;
   text-align: justify;
@@ -196,21 +200,22 @@ a
 {
   position: absolute;
   width: 340px;
-  height: 220px;
+  height: 240px;
 
   background-image: url(https://s3.przepisy.pl/przepisy3ii/img/variants/1920x1080/kremowka-papieska.jpg);
-  background-size: 400px;
+  background-size: 480px;
 
   overflow-y: hidden;
 	max-height: 0px;
-
-	transition-property: all;
 	transition-duration: .5s;
+
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
 
 }
 #project:hover  #projectImage
 {
-max-height: 220px;
+max-height: 234px;
 }
 @media only screen and (max-device-width: 768px) {
   #contenerCenter
