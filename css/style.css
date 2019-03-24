@@ -156,46 +156,59 @@ a
 }
 #projectFlex
 {
-  width: 90%;
+
   display: inline-block;
 }
 #project
 {
-  display:inline-flex ;
-  border-radius: 14px;
-  padding: 7px 10px;
-  color: white;
-  font-size: 16px;
-  background-color: #9876AA;
-  margin: 5px;
+  display:inline-block ;
+  padding: 10px;
+  font-size: 18px;
+
 }
-#project:hover
+#projectTitle
 {
-  cursor: pointer;
+  font-size: 20px;
+  border-left: solid 2px;
+  border-right: solid 2px;
+  line-height: 10px;
+
+  color: black;
+  padding: 10px;
 }
-#project:hover #projectInfo
-{
-  cursor: pointer;
-  visibility: visible;
-}
+
 #projectInfo
 {
-  position: absolute;
   background: white;
-  border-radius: 20px;
-
-  z-index: 1;
-  -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
-  visibility: hidden;
 
   color: black;
   text-align: justify;
   font-size: 12px;
   padding: 20px;
-}
 
+  height: 180px;
+  width: 300px;
+}
+#projectImage
+{
+  position: absolute;
+  width: 300px;
+  height: 180px;
+  background-image: url(https://s3.przepisy.pl/przepisy3ii/img/variants/1920x1080/kremowka-papieska.jpg);
+  background-size: 320px;
+
+
+  overflow-y: hidden;
+	max-height: 0px;
+
+	transition-property: all;
+	transition-duration: .5s;
+
+}
+#projectInfo:hover #projectImage
+{
+max-height: 180px;
+}
 @media only screen and (max-device-width: 768px) {
   #contenerCenter
   {
