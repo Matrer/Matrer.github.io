@@ -4,18 +4,30 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/menuButon.js"></script>
 
     <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>MyGit page</title>
   </head>
   <body>
+    <div id="studia"></div>
     <div class="header">
       <button id="list">
         <i class="fa fa-th-list" aria-hidden="true"></i>
+        <div id="listContenter">
+          <div id="listContenterMenu">Menu</div>
+          <ul>
+            <a href="#studia"><li><i class="fa fa-graduation-cap" aria-hidden="true"></i> Studia</li></a>
+            <a href="#hobby"><li><i class="fas fa-gamepad" aria-hidden="true"></i> Hobby</li></a>
+            <li><i class="fa fa-graduation-cap" aria-hidden="true"></i> O mnie</li>
+          </ul>
+        </div>
       </button>
+
       <div class="portGIT">
         Portfolio
         <div id="title">
@@ -26,11 +38,12 @@
       <div id="buttons">
         <a href="https://github.com/Matrer"><img src="image/GitHub-Mark-120px-plus.png"></img></a>
       </div>
-
     </div>
+
     <div class="center">
 
     <div id="contenerCenter">
+
       <div id= "centerHeder"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
       <div id = "line"><span id="big_font">Kotlin</span></div>
 
@@ -86,6 +99,7 @@
     </div>
 
     <div id="contenerCenter">
+      <div id="hobby"></div>
       <div id= "centerHeder"><i class="fas fa-gamepad" aria-hidden="true"></i></div>
       <div id = "line"><span id="big_font">Kotlin</span></div>
 
