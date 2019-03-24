@@ -171,10 +171,13 @@ a
   font-size: 20px;
   border-left: solid 2px;
   border-right: solid 2px;
-  line-height: 10px;
 
+  line-height:  40px;
   color: black;
-  padding: 10px;
+  margin: 0;
+
+
+
 }
 
 #projectInfo
@@ -192,11 +195,11 @@ a
 #projectImage
 {
   position: absolute;
-  width: 300px;
-  height: 180px;
-  background-image: url(https://s3.przepisy.pl/przepisy3ii/img/variants/1920x1080/kremowka-papieska.jpg);
-  background-size: 320px;
+  width: 340px;
+  height: 220px;
 
+  background-image: url(https://s3.przepisy.pl/przepisy3ii/img/variants/1920x1080/kremowka-papieska.jpg);
+  background-size: 400px;
 
   overflow-y: hidden;
 	max-height: 0px;
@@ -205,9 +208,9 @@ a
 	transition-duration: .5s;
 
 }
-#projectInfo:hover #projectImage
+#project:hover  #projectImage
 {
-max-height: 180px;
+max-height: 220px;
 }
 @media only screen and (max-device-width: 768px) {
   #contenerCenter
